@@ -1,0 +1,13 @@
+{
+  "name": "habla-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "main": "proxy-example.js",
+  "scripts": {
+    "start": "node proxy-example.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
