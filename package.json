@@ -1,13 +1,23 @@
 {
-  "name": "habla-proxy",
+  "name": "habla-spanish-tutor",
   "version": "1.0.0",
   "private": true,
-  "main": "proxy-example.js",
+  "type": "module",
   "scripts": {
-    "start": "node proxy-example.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.383.0",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2",
+    "@capacitor/cli": "^6.1.2"
   }
 }
